@@ -57,7 +57,7 @@ def add_comment():
     tk.Button(win, text="Comentar", command=comment_selected).pack(pady=10)
 
 # --------------------------------------------------------------------------
-# Función auxiliar para el formulario de entrada de comentarios
+# Forma para que se muestre el agregar, editar archivo
 # --------------------------------------------------------------------------
 def comment_form(article_title):
     win = tk.Toplevel(root)
